@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sonnervigsite:
+    image: sonnervigsite
+    build:
+      context: .
+      dockerfile: SonnervigSite/Dockerfile
